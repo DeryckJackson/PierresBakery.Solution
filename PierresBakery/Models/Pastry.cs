@@ -5,11 +5,11 @@ namespace Models
 {
   public class Pastry
   {
-    int numPastries { get; set; }
+    public int numPastries { get; set; }
 
-    public Pastry(int Pastry) 
+    public Pastry(int pastry) 
     {
-      numPastries = Pastry;
+      numPastries = pastry;
     }
 
     public int CalcPastryPrice()

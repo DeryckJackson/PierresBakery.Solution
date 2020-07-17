@@ -6,9 +6,9 @@ namespace Models
   {
     public int numLoafs { get; set; }
 
-    public Bread(int Bread)
+    public Bread(int bread)
     {
-      numLoafs = Bread;
+      numLoafs = bread;
     }
 
     public int CalcBreadPrice() 
