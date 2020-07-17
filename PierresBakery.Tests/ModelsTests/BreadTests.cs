@@ -6,6 +6,9 @@ namespace Models.Tests
   public class BreadTests
   {
     [TestMethod]
-    // Test method will go here
+    public void CalcBreadPrice_OneBreadEqualsfive() 
+    {
+      Assert.AreEqual(5, Bread.CalcBreadPrice(1));
+    }
   }
 }

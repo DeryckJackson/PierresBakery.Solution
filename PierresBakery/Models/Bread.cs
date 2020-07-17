@@ -2,8 +2,10 @@ using System;
 
 namespace Models
 {
-  class Bread
+  public static class Bread
   {
-
+    public static int CalcBreadPrice(int bread) {
+      return 0;
+    }
   }
 }
