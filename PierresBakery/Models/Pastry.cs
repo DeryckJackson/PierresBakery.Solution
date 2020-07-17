@@ -3,8 +3,18 @@ using Models;
 
 namespace Models
 {
-  class Pastry
+  public class Pastry
   {
-    
+    int numPastries { get; set; }
+
+    public Pastry(int Pastry) 
+    {
+      numPastries = Pastry;
+    }
+
+    public int CalcPastryPrice()
+    {
+      return 0;
+    }
   }
 }
