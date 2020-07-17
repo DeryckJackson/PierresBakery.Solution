@@ -21,12 +21,12 @@ namespace Models
       }
       else if (numPastries % 3 == 1) 
       {
-        price = 0;
-        // price = (numPastries / 3) * 5 + 2;
+        price = (numPastries / 3) * 5 + 2;
       }
       else 
       {
-        price = (numPastries / 3) * 5 + 4;
+        price = 0;
+        // price = (numPastries / 3) * 5 + 4;
       }
       return price;
     }
