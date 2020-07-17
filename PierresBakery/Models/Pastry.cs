@@ -14,7 +14,8 @@ namespace Models
 
     public int CalcPastryPrice()
     {
-      return 0;
+      int price = numPastries * 2;
+      return price;
     }
   }
 }
