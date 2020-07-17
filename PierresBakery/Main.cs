@@ -16,7 +16,7 @@ namespace Bakery
       Console.WriteLine(" |____|/  \n");
 
       Console.WriteLine("A loaf of bread is $5 for one or Buy one get one free.");
-      Console.WriteLine("A pastry is $2 for one or 3 for $5.\n");
+      Console.WriteLine("A pastry is $2 for one or 3 for $5 or 12 for $18.\n");
       try
       {
         Console.WriteLine("How many loafs of bread would you like?");
