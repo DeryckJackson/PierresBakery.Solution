@@ -25,8 +25,7 @@ namespace Models
       }
       else 
       {
-        price = 0;
-        // price = (numPastries / 3) * 5 + 4;
+        price = (numPastries / 3) * 5 + 4;
       }
       return price;
     }
