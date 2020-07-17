@@ -6,7 +6,15 @@ namespace Models
   {
     public static int CalcBreadPrice(int bread) 
     {
-      int price = bread * 5;
+      int price = 0;
+      if (bread % 2 == 0)
+      {
+        price = (bread / 2) * 5; 
+      }
+      else
+      {
+        price = (bread / 2) * 5 + 5;
+      }
       return price;
     }
   }
