@@ -2,18 +2,25 @@ using System;
 
 namespace Models
 {
-  public static class Bread
+  public class Bread
   {
-    public static int CalcBreadPrice(int bread) 
+    public int bread { get; set; }
+
+    public Bread(int Bread)
+    {
+      bread = Bread;
+    }
+
+    public int CalcBreadPrice() 
     {
       int price = 0;
-      if (bread % 2 == 0)
+      if (this.bread % 2 == 0)
       {
-        price = (bread / 2) * 5; 
+        price = (this.bread / 2) * 5; 
       }
       else
       {
-        price = (bread / 2) * 5 + 5;
+        price = (this.bread / 2) * 5 + 5;
       }
       return price;
     }
