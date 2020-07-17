@@ -15,7 +15,11 @@ namespace Models
     public int CalcPastryPrice()
     {
       int price = 0;
-      if (numPastries % 3 == 0)
+      if (numPastries % 12 == 0)
+      {
+        price = (numPastries / 12) * 18;
+      }
+      else if (numPastries % 3 == 0)
       {
         price = (numPastries / 3) * 5;
       }
